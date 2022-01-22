@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Challenge</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Begins -->
+    <nav class="navbar">
+      <h4>&lt;Francis_coder&gt;</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a href="#" class="primary-btn"
+            >Login<i class="fas fa-long-arrow-alt-right"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar Ends -->
+    <!-- header Section begins -->
+    <main>
+      <header class="header">
+        <img src="images/hero_3.jpg" alt="hero image" />
+        <div class="header-content">
+          <p>Hello, Welcome to</p>
+          <h1>My First Website</h1>
+          <a href="#" class="cta-btn"
+            >Explore <i class="fas fa-long-arrow-alt-right"></i
+          ></a>
+        </div>
+      </header>
+      <!-- Header Section Ends -->
+      <!-- Services Section Begins -->
+      <section class="services">
+        <h3 class="section-title">Services</h3>
+        <div class="services-content container">
+          <div class="row">
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate possimus natus debitis dicta asperiores delectus
+              laborum officiis velit aliquid, labore cum ipsam modi
+              necessitatibus at.
+            </p>
+          </div>
+          <div class="row middle-col">
+            <h2>Mobile App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate possimus natus debitis dicta asperiores delectus
+              laborum officiis velit aliquid, labore cum ipsam modi
+              necessitatibus at.
+            </p>
+          </div>
+          <div class="row">
+            <h2>SEO</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate possimus natus debitis dicta asperiores delectus
+              laborum officiis velit aliquid, labore cum ipsam modi
+              necessitatibus at.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section Ends -->
+      <!-- About Section -->
+      <section class="about">
+        <div class="about-content container">
+          <h3 class="section-title">About Us</h3>
+          <div class="about-us-content">
+            <img src="images/about.jpg" alt="" class="about-image" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Pariatur, rem. Eos tenetur suscipit dignissimos. Numquam id rem,
+              asperiores labore nostrum ratione soluta, voluptatibus pariatur
+              cupiditate sunt, praesentium sapiente officiis aperiam iure
+              accusamus rerum vel esse eligendi incidunt. Cumque ipsum delectus
+              deleniti natus velit, quo architecto, incidunt enim suscipit
+              laboriosam iste reiciendis. Nesciunt beatae laborum sit vero
+              dolorem esse provident et in illo eius, minima praesentium
+              delectus. Facere consequuntur quis et labore quo. Quod, quia?
+              Exercitationem consequuntur commodi iste, provident nesciunt culpa
+              sequi distinctio! At reiciendis amet ut repellendus, placeat neque
+              magni odit ad unde. Explicabo beatae necessitatibus architecto
+              asperiores ullam?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- About Section Ends -->
+      <!-- Contact Section Begins -->
+      <section class="contact container">
+        <form action="#">
+          <h3 class="">Contact us</h3>
+          <label for="name">Fullname:</label>
+          <input
+            type="text"
+            placeholder="Enter Fullname"
+            id="name"
+            class="input-fields"
+          />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            placeholder="Enter e-mail"
+            id="email"
+            class="input-fields"
+          />
+          <label for="tel">Phone:</label>
+          <input
+            type="tel"
+            placeholder="Enter phone"
+            id="tel"
+            class="input-fields"
+          />
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            placeholder="Enter Subject"
+            id="subject"
+            class="input-fields"
+          />
+          <label for="comment">Message:</label>
+          <textarea
+            type="text"
+            placeholder="Enter Message"
+            id="name"
+            rows="10"
+            class="input-fields"
+          ></textarea>
+          <button>Submit</button>
+        </form>
+        <div class="right-col">
+          <div class="search-box">
+            <input type="text" class="form-control" placeholder="Search..." />
+            <span class="input-group-text"><i class="fas fa-search"></i></span>
+          </div>
+          <div class="login-form">
+            <form action="">
+              <h3>Login</h3>
+              <input type="text" placeholder="Username" class="input-fields" />
+              <input
+                type="password"
+                placeholder="Password"
+                class="input-fields"
+              />
+              <p>Forgot Password? <span class="password">Click here<span></p>
+            <p>Don't have an account? <span class="password">Sign up here</span> </p>
+            <button>Login</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section Ends -->
+    </main>
+    <footer class="footer">
+      <ul class="footer-icons">
+        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+      </ul>
+      <p>Developed by Francis_coder &#169; 2022</p>
+    </footer>
+    <!-- Footer Ends -->
+  </body>
+</html>
