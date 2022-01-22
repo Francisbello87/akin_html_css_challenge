@@ -312,7 +312,7 @@ button:hover {
   border-bottom-right-radius: 0 !important;
   box-shadow: none !important;
   padding: 0.5rem 0.9375rem;
-  caret-color: var(--primary-color);
+  caret-color: var(--background-color);
   width: 60%;
 }
 .input-group-text {
