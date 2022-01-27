@@ -51,7 +51,7 @@ p {
   border-top-right-radius: 0.9375rem;
   align-items: center;
   text-align: center;
-  box-shadow: 0 0.5625rem 2rem 0.375rem var(--primary-color);
+  /* box-shadow: 0 2px 2px 2px var(--primary-color); */
 }
 .cta-btn {
   background: var(--primary-color);
@@ -312,7 +312,7 @@ button:hover {
   border-bottom-right-radius: 0 !important;
   box-shadow: none !important;
   padding: 0.5rem 0.9375rem;
-  caret-color: var(--background-color);
+  caret-color: var(--primary-color);
   width: 60%;
 }
 .input-group-text {
